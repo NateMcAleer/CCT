@@ -1,0 +1,67 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: Arial;
+  color: white;
+}
+
+p , h4 {
+  text-align: center;
+  
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url("http://birdsallinteractive.com/wp-content/uploads/2015/09/Blog_header_user_flow_02.jpg");
+  background-repeat: no-repeat;
+  max-width: 100;
+  max-height: 100;
+  background-position: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-success {
+  margin: 10px;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 500px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 500px;
+}
+.row {
+  text-align: center;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: 200px;
+}
+.container iframe {
+  width: 100%;
+  height: 200px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+}
+
