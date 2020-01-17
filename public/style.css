@@ -64,4 +64,9 @@ p , h4 {
 /* Style the button and place it in the middle of the container/image */
 .container .btn {
 }
+.lol img {
+  
+  width: 50%;
+  height: 200px;
+}
 
