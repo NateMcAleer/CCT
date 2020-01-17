@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="scriptsheet" href="script.js" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+   
+  </head>
+
+  <body>
+    <nav1 class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <button
+        type="button"
+        class="btn btn-success"
+        onclick="window.location.href = '/finalProject'"
+      >
+        Final Project
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-success"
+        onclick="window.location.href = '/vidcode'"
+      >
+        VidCode Projects
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-success"
+        onclick="window.location.href = '/otherProjects'"
+      >
+        Other Projects
+      </button>
+      
+     
+    </nav1>
+
+    <div class="jumbotron">
+      <h1><b>Nate's Website</b> <br />(Final Project)</h1>
+    </div>
+    <h4>
+      API/Widgets
+    </h4>
+    <p></p>
+
+    <div class="row">
+      <div class="col">
+        <iframe
+          src="//www.fantasylabs.com/nba/widgets/12144/4/4503280/points-vs-expected/"
+          style="width: 427px; height: 375px;"
+          frameborder="0"
+        ></iframe>
+      </div>
+      <div id="plemx-root"></div>
+
+      <div class="col">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="500"
+              height="500"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=Jean%20Vanier%20&t=k&z=17&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+            Google Maps Generator by
+            <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      action="https://www.paypal.com/cgi-bin/webscr"
+      method="post"
+      target="_top"
+    >
+      <input type="hidden" name="cmd" value="_donations" />
+      <input type="hidden" name="business" value="ZF4QVLJT7ME4C" />
+      <input type="hidden" name="currency_code" value="CAD" />
+      <input type="hidden" name="amount" value="10" />
+      <input
+        type="image"
+        src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+        border="0"
+        name="submit"
+        title="PayPal - The safer, easier way to pay online!"
+        alt="Donate with PayPal button"
+      />
+      <img
+        alt=""
+        border="0"
+        src="https://www.paypal.com/en_CA/i/scr/pixel.gif"
+        width="1"
+        height="1"
+      />
+    </form>
+  </body>
+</html>
